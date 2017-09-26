@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Test/UIView+Test.{h,m}"
 
   s.framework  = "Framework"
-  s.vendored_frameworks = "Carthage/Build/iOS/Mantle.framework",
+  s.vendored_frameworks = "Carthage/Build/iOS/Mantle.framework"
   s.prepare_command = "/usr/bin/ruby mantle_build.rb"
 
 end
