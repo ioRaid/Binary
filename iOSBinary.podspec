@@ -17,5 +17,5 @@
   },
   "source_files": "Products/**/*.{h}",
   "vendored_frameworks": "Carthage/Build/iOS/Mantle.framework",
-  "prepare_command": "/usr/bin/ruby mantle_build.rb"
+  "prepare_command": "/usr/bin/ruby binary_build.rb"
 }
